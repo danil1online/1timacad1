@@ -24,7 +24,7 @@ $$\int f(x) dx = F(x) + C$$
 | :--- | :--- |
 | $$0$$ | $$\int 0 dx = C$$ |
 | $$x^n$$ $$(n \neq -1)$$ | $$\int x^n dx = \frac{x^{n+1}}{n+1} + C$$ |
-| $$\frac{1}{x}$$ | $$\int \frac{dx}{x} = \ln|x| + C$$ |
+| $$\frac{1}{x}$$ | $$\int \frac{dx}{x} = \ln\|x\| + C$$ |
 | $$a^x$$ | $$\int a^x dx = \frac{a^x}{\ln a} + C$$ |
 | $$e^x$$ | $$\int e^x dx = e^x + C$$ |
 | $$\sin x$$ | $$\int \sin x dx = -\cos x + C$$ |
