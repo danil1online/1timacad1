@@ -393,7 +393,9 @@ $$C_1 y_1(x) + C_2 y_2(x) + ... + C_n y_n(x) \equiv 0$$
 
 **Определитель Вронского (вронскиан):**
 
-$$W(x) = \begin{vmatrix} y_1 & y_2 & \dots & y_n \\ y'_1 & y'_2 & \dots & y'_n \\ \vdots & \vdots & \ddots & \vdots \\ y_1^{(n-1)} & y_2^{(n-1)} & \dots & y_n^{(n-1)} \end{vmatrix}$$
+```math
+W(x) = \begin{vmatrix} y_1 & y_2 & \dots & y_n \\ y'_1 & y'_2 & \dots & y'_n \\ \vdots & \vdots & \ddots & \vdots \\ y_1^{(n-1)} & y_2^{(n-1)} & \dots & y_n^{(n-1)} \end{vmatrix}
+```
 
 **Теорема:** Если $y_1, y_2, ..., y_n$ — решения ЛОДУ, то они линейно независимы тогда и только тогда, когда $W(x) \neq 0$ в некоторой точке (или на всем интервале).
 
