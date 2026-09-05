@@ -32,7 +32,8 @@ $$\int f(x) dx = F(x) + C$$
 | $$\frac{1}{\cos^2 x}$$ | $$\int \frac{dx}{\cos^2 x} = \tan x + C$$ |
 | $$\frac{1}{\sin^2 x}$$ | $$\int \frac{dx}{\sin^2 x} = -\cot x + C$$ |
 | $$\frac{1}{\sqrt{1-x^2}}$$ | $$\int \frac{dx}{\sqrt{1-x^2}} = \arcsin x + C = -\arccos x + C$$ |
-| $$\frac{1}{1+x^2}$$ | $$\int \frac{dx}{1+x^2} = \arctan x + C = -\arccot x + C$$ |
+| $$\frac{1}{1+x^2}$$ | $$\int \frac{dx}{1+x^2} = \arctan x + C = -\text{arccot}\ x + C$$ |
+
 
 ---
 
@@ -102,7 +103,7 @@ $$ax^2 + bx + c = a\left[\left(x + \frac{b}{2a}\right)^2 + \left(\frac{c}{a} - \
 
 Методы зависят от вида подынтегральной функции $$R(\sin x, \cos x)$$.
 
-1. **Универсальная подстановка:** $$t = \tg \frac{x}{2}$$. Тогда:
+1. **Универсальная подстановка:** $$t = \tan \frac{x}{2}$$. Тогда:
 
 $$\sin x = \frac{2t}{1+t^2}, \qquad \cos x = \frac{1-t^2}{1+t^2}, \qquad dx = \frac{2 \, dt}{1+t^2}$$
 
@@ -110,7 +111,7 @@ $$\sin x = \frac{2t}{1+t^2}, \qquad \cos x = \frac{1-t^2}{1+t^2}, \qquad dx = \f
 
 2. **Нечетность относительно $$\sin x$$** ($$R(-\sin x, \cos x) = -R$$): замена $$t = \cos x$$.
 3. **Нечетность относительно $$\cos x$$** ($$R(\sin x, -\cos x) = -R$$): замена $$t = \sin x$$.
-4. **Четность относительно обоих** ($$R(-\sin x, -\cos x) = R$$): замена $$t = \tg x$$. При этом:
+4. **Четность относительно обоих** ($$R(-\sin x, -\cos x) = R$$): замена $$t = \tan x$$. При этом:
 
 $$\sin^2 x = \frac{t^2}{1+t^2}, \qquad \cos^2 x = \frac{1}{1+t^2}, \qquad dx = \frac{dt}{1+t^2}$$
 
@@ -130,7 +131,7 @@ $$\int R\left(x, \sqrt[n]{\frac{ax+b}{cx+d}}\right) dx$$
 
 2. **Квадратичная иррациональность:** интегралы вида $$\int R(x, \sqrt{ax^2 + bx + c}) dx$$. Сводим трехчлен к полному квадрату и используем **тригонометрические подстановки**:
    - Для $$\sqrt{a^2 - x^2}$$: $$x = a \sin t$$.
-   - Для $$\sqrt{a^2 + x^2}$$: $$x = a \,\tg t$$.
+   - Для $$\sqrt{a^2 + x^2}$$: $$x = a \,\tan t$$.
    - Для $$\sqrt{x^2 - a^2}$$: $$x = \frac{a}{\cos t}$$.
 
 ---
