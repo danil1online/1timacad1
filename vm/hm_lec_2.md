@@ -246,11 +246,15 @@ $$\frac{\partial z}{\partial x} = -\frac{F'_x}{F'_z}, \qquad \frac{\partial z}{\
 
 Если дана система:
 
-$$\begin{cases} F(x, y, u, v) = 0 \\ G(x, y, u, v) = 0 \end{cases}$$
+```math
+\begin{cases} F(x, y, u, v) = 0 \\ G(x, y, u, v) = 0 \end{cases}
+```
 
 где $u = u(x, y)$, $v = v(x, y)$, то для нахождения частных производных используется **теорема о неявных функциях** и правило Крамера:
 
-$$\begin{pmatrix} F'_u & F'_v \\ G'_u & G'_v \end{pmatrix} \begin{pmatrix} u'_x \\ v'_x \end{pmatrix} = -\begin{pmatrix} F'_x \\ G'_x \end{pmatrix}$$
+```math
+\begin{pmatrix} F'_u & F'_v \\ G'_u & G'_v \end{pmatrix} \begin{pmatrix} u'_x \\ v'_x \end{pmatrix} = -\begin{pmatrix} F'_x \\ G'_x \end{pmatrix}
+```
 
 Аналогично для $y$.
 
@@ -308,7 +312,9 @@ $$f(x, y) \ge f(x_0, y_0)$$
 
 Если в точке $M_0$ дифференцируемая функция имеет экстремум, то в этой точке обе частные производные первого порядка равны нулю:
 
-$$\begin{cases} f'_x(x_0, y_0) = 0 \\ f'_y(x_0, y_0) = 0 \end{cases}$$
+```math
+\begin{cases} f'_x(x_0, y_0) = 0 \\ f'_y(x_0, y_0) = 0 \end{cases}
+```
 
 Точки, в которых выполняются эти условия, называются **стационарными** (или критическими).
 
@@ -320,7 +326,9 @@ $$A = f''_{xx}(x_0, y_0), \qquad B = f''_{xy}(x_0, y_0), \qquad C = f''_{yy}(x_0
 
 Вычислим **определитель** (гессиан):
 
-$$\Delta = \begin{vmatrix} A & B \\ B & C \end{vmatrix} = AC - B^2$$
+```math
+\Delta = \begin{vmatrix} A & B \\ B & C \end{vmatrix} = AC - B^2
+```
 
 **Правило:**
 1. Если $Δ > 0$ и $A > 0$ (или $C > 0$), то $M_0$ — точка **минимума**.
@@ -349,7 +357,9 @@ $$\Delta = \begin{vmatrix} A & B \\ B & C \end{vmatrix} = AC - B^2$$
 
 1. **Найти стационарные точки внутри области:** решить систему:
 
-$$\begin{cases} f'_x(x, y) = 0 \\ f'_y(x, y) = 0 \end{cases}$$
+```math
+\begin{cases} f'_x(x, y) = 0 \\ f'_y(x, y) = 0 \end{cases}
+```
 
 и проверить, принадлежат ли найденные точки области $D$ (строго внутри). Вычислить значения функции в этих точках.
 
