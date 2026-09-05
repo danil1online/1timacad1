@@ -29,10 +29,10 @@ $$\int f(x) dx = F(x) + C$$
 | $$e^x$$ | $$\int e^x dx = e^x + C$$ |
 | $$\sin x$$ | $$\int \sin x dx = -\cos x + C$$ |
 | $$\cos x$$ | $$\int \cos x dx = \sin x + C$$ |
-| $$\frac{1}{\cos^2 x}$$ | $$\int \frac{dx}{\cos^2 x} = \tg x + C$$ |
-| $$\frac{1}{\sin^2 x}$$ | $$\int \frac{dx}{\sin^2 x} = -\ctg x + C$$ |
+| $$\frac{1}{\cos^2 x}$$ | $$\int \frac{dx}{\cos^2 x} = \tan x + C$$ |
+| $$\frac{1}{\sin^2 x}$$ | $$\int \frac{dx}{\sin^2 x} = -\cot x + C$$ |
 | $$\frac{1}{\sqrt{1-x^2}}$$ | $$\int \frac{dx}{\sqrt{1-x^2}} = \arcsin x + C = -\arccos x + C$$ |
-| $$\frac{1}{1+x^2}$$ | $$\int \frac{dx}{1+x^2} = \arctg x + C = -\arcctg x + C$$ |
+| $$\frac{1}{1+x^2}$$ | $$\int \frac{dx}{1+x^2} = \arctan x + C = -\arccot x + C$$ |
 
 ---
 
